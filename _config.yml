@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://mehul-m-prajapati.github.io/
-baseurl: http://mehul-m-prajapati.github.io/
+url: localhost:3000
+#baseurl: http://mehul-m-prajapati.github.io/
 title: Mehul Prajapati
 author: Mehul Prajapati
 description: Homepage
