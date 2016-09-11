@@ -1,1 +1,16 @@
-Hello World
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>I'm <strong>{{ site.author }}</strong>, a self made Software Developer.</h3>
+	  <h3>I love computer science, maths and video games.</h3>
+	  <h3>I write on <a href="https://www.quora.com/profile/Mehul-Prajapati-8">Quora </a>.</h3>
+	  <h3>Contact me at <a href="http://twitter.com/Mehul2802">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
