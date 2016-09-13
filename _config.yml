@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: localhost:3000
-#baseurl: http://mehul-m-prajapati.github.io/
+url: http://mehul-m-prajapati.github.io/
+baseurl: http://mehul-m-prajapati.github.io/
 title: Mehul Prajapati
 author: Mehul Prajapati
 description: Homepage
@@ -21,6 +21,7 @@ email: mehulprajapati2802@gmail.com
 github: mehul-m-prajapati # username
 twitter: Mehul2802
 linkedin: mehulmp
+youtube: MehulPrajapati28
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 #disqus: username
