@@ -1,17 +1,23 @@
 ---
-layout: home
+layout: archive
+author_profile: true
+title: Welcome to Bootloader Blog
+excerpt: Kyle Manna's personal blog covering embedded systems, Linux, entrepreneurship and other musings.
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: splash-pcb-kernel-driver_1200x630.jpg
 ---
+{% include base_path %}
 
-<section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" height="144" width="144">
-	  </div>
-	  <h3>I'm <strong>{{ site.author }}</strong>, a self made Software Developer.</h3>
- 	  <h3>I love computer science, maths and video games.</h3>
-	  <h3>I write on <a href="https://www.quora.com/profile/Mehul-Prajapati-8">Quora</a>.</h3>
-	  <h3>I also do freelancing in my spare time at <a href="https://www.upwork.com/freelancers/~0169927d250885b894">Upwork</a>.</h3>
-	  <h3>Contact me by <a href="mailto:{{ site.email }}">email</a>.</h3>
-	  {% include social.html %}
-	</div>
-</section>
+<h2>Welcome to my blog</h2>
+
+I ramble about things that amuse me. One day the blog might develop some structure, until then it will remain scatter brained.
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}

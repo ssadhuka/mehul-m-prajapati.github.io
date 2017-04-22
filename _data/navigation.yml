@@ -1,0 +1,12 @@
+# main links links
+main:
+  - title: "About Me"
+    url: "/about/"
+  - title: "Past Work"
+    url: "/past-work/"
+  - title: "Experience"
+    url: "/experience/"
+  - title: "Tags"
+    url: "/tags/"
+  - title: "Categories"
+    url: "/categories/"

@@ -1,123 +1,539 @@
-<!DOCTYPE html>
-<html lang="en">
+
+
+<!doctype html>
+<html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="author" content="Mehul Prajapati" />
-    <meta name="description" content="Homepage">
-    <link rel="favicon" href="static/img/favicon.ico">
-
     
-      <title>Mehul Prajapati</title>
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Welcome to Bootloader Blog - Bootloader Blog</title>
+
+
+
+
+<meta name="description" content="Kyle Manna’s personal blog covering embedded systems, Linux, entrepreneurship and other musings.">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Bootloader Blog">
+<meta property="og:title" content="Welcome to Bootloader Blog">
+
+
+  <link rel="canonical" href="http://localhost:4000/">
+  <meta property="og:url" content="http://localhost:4000/">
+
+
+
+  <meta name="description" content="Kyle Manna’s personal blog covering embedded systems, Linux, entrepreneurship and other musings.">
+  <meta property="og:description" content="Kyle Manna’s personal blog covering embedded systems, Linux, entrepreneurship and other musings.">
+
+
+
+  <meta name="twitter:site" content="@2bluesc">
+  <meta name="twitter:title" content="Welcome to Bootloader Blog">
+  <meta name="twitter:description" content="Kyle Manna’s personal blog covering embedded systems, Linux, entrepreneurship and other musings.">
+  <meta name="twitter:url" content="http://localhost:4000/">
+
+  
+    <meta name="twitter:card" content="summary">
     
-	
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-    crossorigin="anonymous">
+      <meta name="twitter:image" content="http://localhost:4000/images/splash-pcb-kernel-driver_1200x630.jpg">
+    
+  
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  
 
-	<!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="static/css/syntax.css" />
 
-    <!-- Google Analytics -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
+  
 
+  
+    <meta property="fb:app_id" content="1699938753662885">
+  
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/splash-pcb-kernel-driver_1200x630.jpg">
+
+
+
+
+
+
+  <link rel="next" href="http://localhost:4000/page/2/">
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "http://localhost:4000/images/splash-pcb-kernel-driver_1200x630.jpg"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Kyle Manna",
+      "url" : "http://localhost:4000",
+      "sameAs" : ["https://twitter.com/2bluesc","https://facebook.com/2bluesc","https://github.com/kylemanna","https://www.linkedin.com/in/kylemanna"]
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Bootloader Blog Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
   </head>
-  <!-- Main Body-->
-  <body>
-  <!-- Wrap all page content here -->
-  <div id="wrap">
-    <!-- Navbar header -->
-    <nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href=""><i class="fa fa-home"></i></a>
-    </div>
-    <div id="navbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="http://biomadeira.github.io/vitae">RESUME</a></li>
-      </ul>
+
+  <body class="layout--archive">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Bootloader Blog</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About Me</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/past-work/">Past Work</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Experience</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/tags/">Tags</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/categories/">Categories</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
   </div>
-</nav>
-
-    <section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="static/img/profile.png" alt="Responsive image" height="184" width="184">
-	  </div>
-	  <h3>I'm <strong>Mehul Prajapati</strong>, a self made Software Developer.</h3>
-	  <h3>I love computer science, maths and video games.</h3>
-	  <h3>I write on <a href="https://www.quora.com/profile/Mehul-Prajapati-8">Quora </a>.</h3>
-	  <h3>Contact me at <a href="http://twitter.com/Mehul2802">@Mehul2802</a> or by <a href="mailto:mehulprajapati2802@gmail.com">email</a>.</h3>
-	  <div class="social">
-	<h4>
-    
-	  <a href="http://github.com/mehul-m-prajapati"><i class="fa fa-github"></i></a>
-    
-    
-	  <a href="mailto:mehulprajapati2802@gmail.com"><i class="fa fa-envelope"></i></a>
-    
-
-    
-	  <a href="http://twitter.com/Mehul2802"><i class="fa fa-twitter"></i></a>
-    
-    
-	  <a href="http://linkedin.com/in/mehulmp"><i class="fa fa-linkedin"></i></a>
-    
-    
-	</h4>
 </div>
 
-	</div>
-</section>
+    
+  
+
+
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://localhost:4000/images/splash-pcb-kernel-driver_1200x630.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 class="page__title" itemprop="headline">
+        
+          Bootloader Blog
+        
+      </h1>
+      
+        <p class="page__lead">Kyle Manna’s personal blog covering embedded systems, Linux, entrepreneurship and other musings.
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/bio-bluepolo-glasses.jpg" class="author__avatar" alt="Kyle Manna">
+    
+  </div>
+
+  <div class="author__content">
+    <h2 class="author__name">Kyle Manna</h2>
+    <p class="author__bio">Entrepreneur and chip whisperer.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> San Francisco</li>
+      
+      
+      
+      
+        <li><a href="https://keybase.io/manna"><i class="fa fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
+      
+      
+        <li><a href="https://twitter.com/2bluesc"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+        <li><a href="https://www.facebook.com/2bluesc"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      
+      
+        <li><a href="https://plus.google.com/+KyleManna"><i class="fa fa-fw fa-google-plus-square" aria-hidden="true"></i> Google+</a></li>
+      
+      
+        <li><a href="https://www.linkedin.com/in/kylemanna"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+      
+      
+      
+        <li><a href="https://instagram.com/2bluesc"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+      
+      
+      
+      
+        <li><a href="https://github.com/kylemanna"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+    
+
+<h2>Welcome to my blog</h2>
+
+I ramble about things that amuse me. One day the blog might develop some structure, until then it will remain scatter brained.
+
+<h3 class="archive__subtitle">Recent Posts</h3>
+
+
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/hardware/intel-nic-igb-i211-vs-e1000e-i219/" rel="permalink">Intel Ethernet I211 vs I219 and Linux Drivers igb vs e1000e
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  2 minute read
+	
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">What’s the difference between these two Ethernet interfaces and corresponding drivers?
+</p>
+  </article>
+</div>
+
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/bikes/easton-r4sl-rear-hub-bearing-replacement-issues/" rel="permalink">Easton R4SL Rear Hub Bearing Replacement Issues
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  4 minute read
+	
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Poor manufacturing quality causes many headaches.
+</p>
+  </article>
+</div>
+
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/linux/systemd-journalctl-sort-by-frequency/" rel="permalink">Use JSON and jq to Sort systemd’s journalctl by Program Frequency
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  1 minute read
+	
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">A series of jq filters can sort the output of journalctl to help find the programs that log the most.
+</p>
+  </article>
+</div>
+
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/sharing/gogo-inflight-wireless-with-openvpn/" rel="permalink">Gogo Inflight Internet Access with OpenVPN
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  5 minute read
+	
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">With a little bit of magic, Docker and one open port you can use Gogo Inflight Internet.
+</p>
+  </article>
+</div>
+
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/hardware/kicad-schematic-label-breaks-netlist/" rel="permalink">KiCad Schematic Label Breaks Netlist and Junction Surprises
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  3 minute read
+	
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">One poorly placed label and two nets become one with no ERC warnings and a junction surprise.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<nav class="pagination">
+  <ul>
+    
+    
+      <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
+    
+
+    
+    
+      <li><a href="#" class="disabled current">1</a></li>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+        
+        <li><a href="http://localhost:4000/page/2/">2</a></li>
+      
+    
+      
+        
+        
+        
+        <li><a href="http://localhost:4000/page/3/">3</a></li>
+      
+    
+
+    
+    
+      <li><a href="#" class="disabled">&hellip;</a></li>
+    
+
+    
+      <li><a href="http://localhost:4000/page/20/">20</a></li>
+    
+
+    
+    
+      <li><a href="http://localhost:4000/page/2/">Next</a></li>
+    
+  </ul>
+</nav>
+
 
 
   </div>
-  <!-- Footer -->
-  <footer>
-    <div id="footer">
-        <div class="container">
-            <p class="text-muted">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="http://www.github.com/biomadeira/sustain">sustain</a> with ♥</p>
-        </div>
+</div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+      <li><a href="https://twitter.com/2bluesc"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+      <li><a href="https://facebook.com/2bluesc"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    
+    
+      <li><a href="http://github.com/kylemanna"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Kyle Manna. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
     </div>
-</footer>
-<div class="footer"></div>
 
-    <a href="https://github.com/biomadeira/sustain"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
-    integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
-    crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="static/js/docs.min.js"></script>
-    <script src="static/js/main.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WB9B5Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WB9B5Q');</script>
+
+
+
   </body>
 </html>
