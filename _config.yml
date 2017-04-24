@@ -70,7 +70,8 @@ social:
     - https://twitter.com/mehul2802
     - https://github.com/mehul2802
     - https://www.linkedin.com/in/mehulmp
-
+    - https://www.medium.com/in/mehul2802
+    - https://www.quora.com/Mehul-Prajapati-8
 # Analytics
 analytics:
   provider               : # false (default), "google", "google-universal", "custom"
@@ -98,7 +99,9 @@ author:
   instagram        : 
   lastfm           :
   linkedin         : "mehulmp"
+  medium	   : "mehul2802"
   pinterest        :
+  quora		   : "Mehul-Prajapati-8"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
