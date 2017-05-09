@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en_US"
-title                    : #"Mehul Prajapati"
+title                    : "Mehul Prajapati"
 title_separator          : #"-"
 name                     : "Mehul Prajapati"
 description              : "Personal blog covering Embedded Linux, Networking, IoT  and other musings."
