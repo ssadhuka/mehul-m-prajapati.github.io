@@ -42,18 +42,17 @@ Wireshark is a free and open source packet analyzer. It is used for network trou
 > git clone https://github.com/wireshark/wireshark
 > git checkout wireshark-2.2.6
    ```
- 
    - Close command prompt aka **cmd.exe** :smiley:
 
 5. Install Qt by clicking on below link
-
    - [Qt](http://info.qt.io/download-qt-for-application-development)
    - Select these components when installing: Qt5.5 -> msvc2013 64-bit, msvc2013 32-bit
 
 6. Setting environment variables
 
-   - Right Click on My Computer -> Properties -> Advanced system settings -> Environment Variables-> Select PATH and append -> ;C:\Qt\5.5\msvc2013\bin
-   - Search and open Visual Studio Tools directory and double-click on "VS2013 x86 Native Tools Command Prompt"
+   - Right Click on My Computer --> Properties --> Advanced system settings --> Environment Variables --> Select PATH and append --> ;C:\Qt\5.5\msvc2013\bin
+   - Search and open Visual Studio Tools directory
+   - Double-click on **VS2013 x86 Native Tools Command Prompt**
    - Execute below commands to setup environment variables (32-bit)
 
    ```
