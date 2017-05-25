@@ -78,6 +78,8 @@ Wireshark is a free and open source packet analyzer. It is used for network trou
 > C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" /m /p:Configuration=RelWithDebInfo Wireshark.sln
    ```
 
+Check executable file at: C:\Development\wsbuild32\run\RelWithDebInfo\Wireshark.exe
+
 Reference: [Wireshark Developer Guide](https://www.wireshark.org/docs/wsdg_html_chunked/ChSetupWin32.html)
 
 Cheers ... :whale:
