@@ -84,7 +84,7 @@ author:
   name             : "Mehul Prajapati"
   avatar           : "profile.png"
   bio              : "Embedded Linux Developer and Machine Learning enthusiast."
-  location         : "Ahmedabad"
+  location         : #"Ahmedabad"
   email            :
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   pinterest        :
   quora		   : "Mehul-Prajapati-8"
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "4349224/mehul"
   steam            :
   tumblr           :
   twitter          : "mehul2802"
