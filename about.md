@@ -1,18 +1,15 @@
 ---
 layout: single
 author_profile: true
-title: About Mehul Prajapati
+title: About
 excerpt: Quick Blurb About Kyle Manna
 ---
 {% include base_path %}
 
-## Career
+## Summary
+We are a journal club started in June 2020 by a bunch of computer science and computer science-adjacent undergraduates. Each week, one person is in "charge" of presenting a paper and prepares a ~10-min summary of the paper as well as interesting discussion questions.  Those not presenting in a particular week. are encouraged to at least skim the paper.
 
-I'm the guy that makes embedded devices come to life the first time, ensures the low-level operating system code runs reliably, and ensure that the application runs successfully on embedded devices.
+In the past we've read papers/articles on data structures and algorithms, systems, algorithmic fairness and bias, theory, and social issues in tech.  Our meetings and discussions are casual, and there is no obligation or expectation to attend.  While some background in computer science will help contextualize the papers we discuss, there is no required background and strongly encourage younger/less experienced undergraduates to come.
 
-I have years of experience in implementing custom softwares on a variety of embedded platforms. These solutions range from low-level boot loaders and kernel drivers to high-level libraries interfaces to those device drivers.
+All are welcome to join; we've had students from many different universities, professionals, and even a professor join our meetings in the past!
 
-I have an interest in building embedded software and embedded firmware for embedded devices in a reliable manner leveraging existing technologies and source control management tools.
-
-## Free Time
-Outside of work I hack on opensource software, dabble with development boards like Raspberry-Pi.
